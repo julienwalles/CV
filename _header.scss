@@ -1,0 +1,24 @@
+.header {
+
+    &__title {
+        width: 100%;
+        height: 80px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    &__menu {
+        width: 100%;
+        text-align: center;
+        background-color:rgb(42, 40, 40);
+        height: 50px;
+    }
+
+    &__menu > a {
+        margin-left: 40px;
+
+        &:hover {
+            color:firebrick;
+        }
+    }
+}

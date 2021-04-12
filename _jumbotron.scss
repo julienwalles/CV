@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url(/web-developer.jpg);
+    height: 560px;  
+}
+
+.jumbotron {
+
+    &__title {
+        text-align: center;
+        padding-top: 200px;
+        font-weight: bolder;
+    }
+}
