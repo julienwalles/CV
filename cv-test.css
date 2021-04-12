@@ -52,3 +52,12 @@ p {
 .exp_un, .exp_deux {
     width:80%;
 }
+
+.carousel-item {
+    width: 100%;
+    height:400px;
+}
+
+.carousel-item > img {
+    
+}
