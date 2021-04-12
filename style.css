@@ -1,12 +1,10 @@
 .header__title {
-  width: 100%;
   height: 80px;
-  margin-top: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
 
 .header__menu {
-  width: 100%;
   text-align: center;
   background-color: #2a2828;
   height: 50px;
@@ -22,12 +20,38 @@
 
 .jumbotron {
   background-image: url(/web-developer.jpg);
-  height: 560px;
+  height: 615px;
+  background-size: cover;
+  background-position: center;
 }
 
 .jumbotron__title {
   text-align: center;
   padding-top: 200px;
   font-weight: bolder;
+  color: #a0775f;
+}
+
+.container__title {
+  text-align: center;
+  margin: 20px;
+}
+
+.container__row {
+  border: solid #0a0361 5px;
+  border-radius: 30px;
+}
+
+.container__name {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.container__desc {
+  text-align: left;
+  font-size: larger;
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

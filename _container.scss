@@ -1,0 +1,26 @@
+.container {
+
+    &__title {
+        text-align: center;
+        margin: 20px;
+    }
+
+    &__row {
+        border: solid rgb(10, 3, 97) 5px;
+        border-radius: 30px;
+    }
+
+
+    &__name {
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 20px;
+    }
+
+    &__desc {
+        text-align:left;
+        font-size: larger;
+        padding: 20px;
+    }
+}
