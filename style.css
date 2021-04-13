@@ -29,7 +29,7 @@
   text-align: center;
   padding-top: 200px;
   font-weight: bolder;
-  color: #a0775f;
+  color: brown;
 }
 
 .container__title {
@@ -53,5 +53,27 @@
   text-align: left;
   font-size: larger;
   padding: 20px;
+}
+
+.section {
+  text-align: center;
+  padding-top: 100px;
+  width: 50%;
+  margin: auto;
+}
+
+.section__contact {
+  background-image: url(/contacts.jfif);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  list-style: none;
+  border: solid #0a0361 5px;
+  border-radius: 30px;
+}
+
+.section__contact > li {
+  font-size: x-large;
+  font-weight: bolder;
 }
 /*# sourceMappingURL=style.css.map */
