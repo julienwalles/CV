@@ -76,4 +76,8 @@
   font-size: x-large;
   font-weight: bolder;
 }
+
+.section__contact > li > a {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

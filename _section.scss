@@ -20,5 +20,10 @@
     &__contact > li {
         font-size:x-large;
         font-weight: bolder;
+        
+    }
+
+    &__contact > li > a {
+        color:black;
     }
 }
